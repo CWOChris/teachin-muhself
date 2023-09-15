@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4 Buttons</title>
+</head>
+<body>
+    <h2>File Upload</h2>
+    <form action="http://www.example.com/upload.php" method="post">
+        <p>Upload your song in MP3 format:</p>
+        <input type="file" name="user-song" /><br />
+        <input type="submit" value="upload" />
+    </form>
+    <h2>Subsciption Button</h2>
+    <form action="http://www.example.com/subscribe.php">
+        <p>Subscribe to our email list:</p>
+        <input type="text" name="email" />
+        <input type="submit" value="Subscribe" />
+    </form>
+    <h2>Image Button</h2>
+    <form action="http://www.example.com/subscribe.php">
+        <p>Subscribe to our email list:</p>
+        <input type="text" name="email" />
+        <input type="image" src="images/subscribe.jpg" width="100" height="20" />
+    </form>
+    <h2>Button and Hidden Controls</h2>
+    <form action="http://www.example.com/add.php">
+        <button><img src="images/add.gif" alt="add" width="10" height="10" />Add</button>
+        <input type="hidden" name="bookmark" value="lyrics" />
+    </form>
+</body>
+</html>
