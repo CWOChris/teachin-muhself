@@ -1,0 +1,19 @@
+div {
+    height: 300px;
+    width: 400px;
+    background-color: #ee3e80;
+}
+
+p {
+    height: 82.5%;
+    width: 85%;
+    background-color: #e1ddda;
+}
+
+.description {
+    min-width: 450px;
+    max-width: 650px;
+    text-align: left;
+    padding: 5px;
+    margin: 0px;
+}
