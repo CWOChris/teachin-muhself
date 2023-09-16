@@ -1,0 +1,21 @@
+p {
+    width: 275px;
+    border: 2px solid #0088dd;
+    padding: 10px
+}
+
+.example {
+    margin: 20px;
+    text-align: left;
+}
+
+/* Adding margin: 20px to the .example styling made the corresponding box 
+in the webpage move right 20px and down a couple px but all other visual appearance stuff remained the same. */
+
+body {
+    text-align: center;
+}
+
+/* Adding text-align: center caused all text in the body to be centered within their respective boxes. If at this 
+point I add a .example {text-align: left;, then the text in that class will align to the left of its respected box. 
+even if my body CSS commands are last on the style sheet. */

@@ -1,0 +1,60 @@
+p {
+    border-style: solid;
+}
+
+.one {
+    border-width: 2px;
+}
+
+.two {
+    border-width: thick;
+}
+
+.three {
+    border-width: 1px 4px 12px;
+}
+
+.four {
+    border-style: solid;
+}
+
+.five {
+    border-style: dotted;
+}
+
+.six {
+    border-style: dashed;
+}
+
+.seven {
+    border-style: double;
+}
+
+.eight {
+    border-style: groove;
+}
+
+.nine {
+    border-style: ridge;
+}
+
+.ten {
+    border-style: inset;
+}
+
+.eleven {
+    border-style: outset;
+}
+
+.twelve {
+    border-color: #0088dd;
+}
+
+.thirteen {
+    border-color: #bbbbaa #111111 #ee3e80 #0088dd;
+}
+
+.fourteen {
+    width: 250px;
+    border: 8px dotted #0088dd;
+}
