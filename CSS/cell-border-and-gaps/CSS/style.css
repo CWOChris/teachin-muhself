@@ -1,0 +1,35 @@
+td {
+    border: 1px solid #00eedd;
+    padding: 15px;
+    empty-cells: hide;
+}
+
+.one {
+    empty-cells: show;
+}
+
+two {
+    empty-cells: hide;  
+    /* this is probably based on outdated code.  When I moved the line above, line 12, up to line 4 withing the 
+    td brackets, I acheived the desired result. */
+}
+
+.two {
+    td {
+        background-color: #0088dd;
+        padding: 15px;
+        border: 2px solid #000000;
+}
+    border-spacing: 5px 15px;
+}
+
+.three{
+    td {
+        background-color: #0088dd;
+        padding: 15px;
+        border: 2px solid #000000;
+    }
+    border-spacing: collapse;
+}
+
+/* Had to nest code for td within classes two and three due to the errors in the book.  Which acheived the result depicted in the book. */
