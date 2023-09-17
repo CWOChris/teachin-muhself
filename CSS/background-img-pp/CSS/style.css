@@ -1,0 +1,13 @@
+body {
+    color: white;
+    padding: 20px;
+}
+
+p {
+    background-image: url(../asssets/img/pattern.gif);
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #665544;
+}

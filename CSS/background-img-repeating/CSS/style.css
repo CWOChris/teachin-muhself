@@ -1,0 +1,16 @@
+body {
+    color: white;
+    padding: 20px;
+    background-image: url(../asssets/img/header.gif);
+    background-repeat: repeat-x;
+    color: #665544
+}
+
+p {
+    
+    padding: 20px;
+}
+
+h1 {
+    color: white;
+}

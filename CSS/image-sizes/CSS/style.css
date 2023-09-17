@@ -1,0 +1,17 @@
+.large {
+    width: 500px;
+    height: 500px;
+}
+
+.medium {
+    width: 250px;
+    height: 250px;
+}
+
+.small {
+    width: 100px;
+    height: 100px;
+}
+
+/* It's weird because the images are all the sizes defined here before they're even defined here.... I 
+changed the source file to all be the large size in order to give this style sheet some utility.*/
