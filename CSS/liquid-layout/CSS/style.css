@@ -1,6 +1,9 @@
 body {
     width: 90%;
     margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #665544;
 }
 
 #content {

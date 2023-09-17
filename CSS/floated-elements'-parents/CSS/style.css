@@ -1,0 +1,14 @@
+div {
+    border: 1px solid #665544;
+    overflow: auto;
+    width: 100%;
+}
+/* If you take away the "overflow: auto" and "width 100%" above, the result will be one line in the color of #665544 above 
+the text boxes on the display page in browser. */
+p {
+    width: 230px;
+    float: left;
+    margin: 5px;
+    padding: 4px;
+    background-color: #efefef;
+}

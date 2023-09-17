@@ -1,0 +1,18 @@
+.column1of2 {
+    float: left;
+    width: 620px;
+    margin: 10px;
+}
+
+.column2of2 {
+    float: left;
+    width: 500px;
+    margin: 10px;
+}
+/* Duckett's code isn't even close to working.  If you add code for ".column2of2" it throws the whole thing.  In 
+fact, his code doesn't function whatsoever. */
+.column3of3 {
+    width: 300px;
+    float: left;
+    margin: 10px;
+}
