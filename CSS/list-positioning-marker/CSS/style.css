@@ -1,0 +1,25 @@
+ul {
+    width: 250px;
+}
+
+li {
+    margin: 10px;
+}
+
+.illumin {
+    list-style-position: outside;
+}
+
+.season {
+    list-style-position: inside;
+}
+
+.allit {
+    ul {
+        list-style: inside circle;
+    }
+
+    li {
+        margin: 10px 0px 0px 0px;
+    }
+}

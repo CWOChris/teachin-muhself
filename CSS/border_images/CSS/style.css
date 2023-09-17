@@ -1,0 +1,11 @@
+.one {
+    -moz-border-image: url(../assets/img/magenta_dot.gif) 11 11 11 11 stretch;
+    -webkit-border-image: url(../assets/img/magenta_dot.gif) 11 11 11 11 stretch;
+    border-image: url(../assets/img/magenta_dot.gif), 11 11 11 11, stretch;
+}
+
+.two {
+
+}
+
+/* This doesn't work */

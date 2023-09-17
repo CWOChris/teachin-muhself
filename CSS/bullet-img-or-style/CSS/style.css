@@ -1,0 +1,11 @@
+ol {
+    list-style-type: lower-roman;
+}
+
+ul {
+    list-style-image: url(./assets/img/starfish.png);
+}
+
+li {
+    margin: 10px 0px 0px 0px;
+}

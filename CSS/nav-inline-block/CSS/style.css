@@ -1,0 +1,12 @@
+li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.coming-soon {
+    display: none;
+}
+
+/* This makes the services that have not yet arrived not be displayed to the end user but still shows it in the HTML code.
+If you change from display to "visibility: hidden;", then the space it would occupy is displayed but there is nothing 
+there. */

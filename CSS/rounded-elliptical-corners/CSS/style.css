@@ -1,0 +1,36 @@
+.zero {
+    border: 5px solid #ee3e80;
+    padding: 20px;
+    width: 275px;
+    border-radius: 10px;
+}
+
+.one {
+    border: 5px solid #ee3e80;
+    width: 275px;
+    border-top-left-radius: 80px 50px;
+    text-align: right;
+    background-color: darkgoldenrod;
+}
+
+.two {
+    border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
+    border: 5px solid #ee3e80;
+    width: 275px;
+    text-align: center;
+    background-color: darkcyan;
+}
+
+.three {
+    border: 5px solid #ee3e80;
+    padding: 0px;
+    border-radius: 100px;
+    width: 275px;
+    text-align: center;
+    background-color: darkblue
+}
+
+body {
+    background-color: black;
+    color: white;
+}
