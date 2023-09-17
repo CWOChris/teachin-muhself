@@ -1,0 +1,7 @@
+.first {
+    color: #444444;
+    text-shadow: 0px 1px 1px #ffffff;
+    border-bottom: 2px solid #b2b2b2;
+}
+
+/* this also does not work as it is written in the book.  moving on, not part of the class. */

@@ -1,0 +1,39 @@
+body {
+    width: 750px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #665544;
+}
+
+h1 {
+    background-color: #efefef;
+    padding: 10px;
+}
+
+p {
+    width: 450px;
+}
+
+/* Above this comment for static positioning. */
+
+.example {
+    position: relative;
+    top: 10px;
+    left: 100px;
+}
+
+/* This adds relative positioning to the 2nd paragraph. */
+
+.absolute {
+    h1{
+        position: absolute;
+        top: 0px;
+        left: 500px;
+        width: 250px;
+    }
+
+    p {
+        width: 450px;
+    }
+}
+
+/* Nested this to make the other elements work with added an absolute position for a second h1 element. */

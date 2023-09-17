@@ -1,0 +1,19 @@
+fieldset {
+    width: 350px;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: right;
+}
+
+legend {
+    background-color: #efefef;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+/* The author must be using a much older and different browser than I am because I achieved the intended result, 
+but aesthetically, CSS rendered differently on my machine compared to the author's example. */
