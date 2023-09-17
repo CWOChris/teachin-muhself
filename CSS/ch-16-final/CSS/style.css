@@ -30,7 +30,7 @@ figure {
     width: 202px;
     height: 170px;
     background-color: #e7e3d8;
-    margin: 0px;
+    margin: 0;
     padding: 9px;
     text-align: left;
 }
@@ -42,6 +42,7 @@ figure img {
 }
 
 figcaption {
-    background-image: url(../assets/img/icon.png) no-repeat;
+    background-image: url(../assets/img/icon.png);
     padding-left: 20px;
+    background-repeat: no-repeat;
 }
