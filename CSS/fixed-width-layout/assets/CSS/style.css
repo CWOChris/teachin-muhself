@@ -3,6 +3,10 @@ body {
     margin: 0 auto;
 }
 
+header {
+    text-align: center;
+}
+
 #content {
     overflow: auto;
     height: 100%;
@@ -12,6 +16,7 @@ nav, #feature, footer {
     background-color: #efefef;
     padding: 10px;
     margin: 10px;
+    text-align: center;
 }
 
 .column1, .column2, .column3 {
