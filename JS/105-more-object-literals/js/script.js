@@ -1,7 +1,7 @@
 var hotel = {
-    name: "Quay",
-    rooms: 40,
-    booked: 25,
+    name: "Park",
+    rooms: 120,
+    booked: 77,
     checkAvailability: function() {
         return this.rooms - this.booked;
     }
