@@ -53,11 +53,14 @@ a:active {
     font-size: 130%;
 }
 
+.plusungood {
+    font-weight: bold;
+    font-size: 100%;
+}
+
 .col_2 {
     padding-left: 5px;
 }
-
-
 
 main {
     background-color: white;
@@ -104,7 +107,7 @@ main a {
     display: grid;
     grid-template-columns: 30vw 65vw;
 
-    .col_1 {
+    .col_1, .plusungood {
         box-shadow: 5px 5px #777777;
         padding-top: 10px;
         margin-top: 10px;
@@ -118,6 +121,18 @@ main a {
 footer {
     color: white;
     text-align: center;
+}
+
+.doubleplusungood {
+    text-align: center;
+    font-weight: bolder;
+    outline: auto;
+    font-size: 250%;
+}
+
+.doubleplusungood:hover {
+    background-color: white;
+    color: black;
 }
 
 @media only screen and (max-width: 600px) {

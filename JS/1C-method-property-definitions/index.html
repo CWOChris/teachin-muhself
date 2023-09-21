@@ -75,6 +75,22 @@
           <div class="col_2" id="contact">
             <p>Accesses screen object and finds value of its height property &#40;in pixels&#41;</p>
           </div>
+          <div class="col_1"><h2>document.title</h2></div>
+          <div class="col_2" id="contact">
+            <p>Title of current document</p>
+          </div>
+          <div class="col_1"><h2>document.lastModified</h2></div>
+          <div class="col_2" id="contact">
+            <p>Date on which document was last modified</p>
+          </div>
+          <div class="col_1"><h2>document.URL</h2></div>
+          <div class="col_2" id="contact">
+            <p>Returns string containing URL of current document</p>
+          </div>
+          <div class="col_1"><h2>document.domain</h2></div>
+          <div class="col_2" id="contact">
+            <p>Returns domain of current document</p>
+          </div>
         </div>
         <h2 id="methid">Methods</h2>
         <div class="container">
@@ -90,8 +106,32 @@
           <div class="col_2" id="contact">
             <p>Tells browser that user wants to print contents of current page &#40;acts like user has clicked a print option in the browser's user interface&#41;</p>
           </div>
+          <div class="col_1"><h2>document.write&#40;&#41;</h2></div>
+          <div class="col_2" id="contact">
+            <p>Writes text to document &#40;see restrictions on p226&#41;</p>
+          </div>
+          <!-- .plusungood is used for methods/properties that are too large to fit in the left column -->
+          <div class="plusungood"><h2>document.getElementById&#40;&#41;</h2></div>
+          <div class="col_2" id="contact">
+            <p>Returns element, if there is an element with the value of the id attribute that matches &#40;full description see p195&#41;</p>
+          </div>
+          <div class="plusungood"><h2>document.querySelectorAll&#40;&#41;</h2></div>
+          <div class="col_2" id="contact">
+            <p>Returns list of elements that match a CSS selector, which is specified as a parameter &#40;see p202&#41;</p>
+          </div>
+          <div class="plusungood"><h2>document.createElement&#40;&#41;</h2></div>
+          <div class="col_2" id="contact">
+            <p>Creates new element &#40;see p222&#41;</p>
+          </div>
+          <div class="plusungood"><h2>document.createTextNode&#40;&#41;</h2></div>
+          <div class="col_2" id="contact">
+            <p>Creates new text node &#40;see p222&#41;</p>
+          </div>
+
           <!-- I've commented out a template of code to add additional information to the page -->
-          <!-- <div class="col_1"><h2>BLANK</h2></div>
+
+          <!-- 
+          <div class="col_1"><h2>BLANK</h2></div>
           <div class="col_2" id="contact">
             <p>BLANK BLANK BLANK BLANK BLANK BLANK BLANK BLANK BLANK</p>
           </div> -->
@@ -99,8 +139,9 @@
         </div>
     </main>
     <footer>
-        &copy; Chris R. circa 2023, All Rights Reserved
+      <p>&copy; Chris R. circa 2023, All Rights Reserved</p>
     </footer>
+    <p><a href="#top" class="doubleplusungood">Top ^</a></p>
 </body>
 <script src="./js/script.js"></script>
 </html>
