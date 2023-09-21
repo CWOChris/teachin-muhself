@@ -11,11 +11,13 @@
 <body>
     <header>
         <nav>
-            <h1> JavaScript Properties and Methods Definitions</h1>
+            <h1> JavaScript Glossary of Terms</h1>
                 <ul>
                     <li><a href="#top">Top</a></li>
                     <li><a href="#secid">Properties</a></li>
                     <li><a href="#methid">Methods</a></li>
+                    <li><a href="#typid">Weak Typing</a></li>
+                    <li><a href="#truid">Truthy/Falsy</a></li>
                 </ul>
         </nav>
         <!-- ADD IN SEARCH FUNCTIONALITY LATER IN JAVASCRIPT <p>Search: </p> -->
@@ -135,6 +137,7 @@
           <div class="col_2" id="contact">
             <p>Creates new text node &#40;see p222&#41;</p>
           </div>
+          <!-- end of the first instance of plusungood -->
           <div class="col_1"><h2>toUpperCase&#40;&#41;</h2></div>
           <div class="col_2" id="contact">
             <p>Changes strings to uppercase characters</p>
@@ -259,6 +262,84 @@
           <div class="col_2" id="contact">
             <p>Returns a string representing the specified date</p>
           </div>
+        </div>
+      <h2 id="typid">Type Coercion & Weak Typing</h2>
+        <div class="container">
+          <div class="col_1"><h2>string</h2></div>
+          <div class="col_2" id="contact">
+            <p>Text</p>
+          </div>
+          <div class="col_1"><h2>number</h2></div>
+          <div class="col_2" id="contact">
+            <p>Number</p>
+          </div>
+          <div class="col_1"><h2>Boolean</h2></div>
+          <div class="col_2" id="contact">
+            <p>true or false</p>
+          </div>
+          <div class="col_1"><h2>null</h2></div>
+          <div class="col_2" id="contact">
+            <p>Empty value</p>
+          </div>
+          <div class="col_1"><h2>undefined</h2></div>
+          <div class="col_2" id="contact">
+            <p>Variable has been declared but not yet assigned a value</p>
+          </div>
+        </div>
+      <h2 id="typid">Falsy Values</h2>
+        <div class="container">
+          <div class="col_1"><h2>var highScore = false;</h2></div>
+          <div class="col_2" id="truid">
+            <p>The traditional Boolean false</p>
+          </div>
+          <div class="col_1"><h2>var highScore = 0;</h2></div>
+          <div class="col_2" id="contact">
+            <p>The number zero</p>
+          </div>
+          <div class="col_1"><h2>var highScore = '';</h2></div>
+          <div class="col_2" id="contact">
+            <p>Empty string</p>
+          </div>
+          <div class="col_1"><h2>var highScore = 10/'score';</h2></div>
+          <div class="col_2" id="contact">
+            <p>NaN &#40;Not a number&#41;</p>
+          </div>
+          <div class="col_1"><h2>var highScore;</h2></div>
+          <div class="col_2" id="contact">
+            <p>A variable with no value assigned to it</p>
+          </div>
+        </div>
+      <h2 id="blank">Truthy Values</h2>
+        <div class="container">
+          <div class="col_1"><h2>var highScore = true;</h2></div>
+          <div class="col_2" id="contact">
+            <p>The traditional Boolean true</p>
+          </div>
+          <div class="col_1"><h2>var highScore = 1;</h2></div>
+          <div class="col_2" id="contact">
+            <p>Numbers other than zero</p>
+          </div>
+          <div class="col_1"><h2>var highScore = 'carrot';</h2></div>
+          <div class="col_2" id="contact">
+            <p>Strings with content</p>
+          </div>
+          <div class="col_1"><h2>var highScore = 10/5;</h2></div>
+          <div class="col_2" id="contact">
+            <p>Number calculations</p>
+          </div>
+          <div class="col_1"><h2>var highScore = 'true';</h2></div>
+          <div class="col_2" id="contact">
+            <p>true written as a string</p>
+          </div>
+          <div class="col_1"><h2>var highScore = '0';</h2></div>
+          <div class="col_2" id="contact">
+            <p>Zero written as a string</p>
+          </div>
+          <div class="col_1"><h2>var highScore = 'false';</h2></div>
+          <div class="col_2" id="contact">
+            <p>false written as a string</p>
+          </div>
+        </div>
                     
           <!-- I've commented out a template of code to add additional information to the page -->
 
@@ -269,7 +350,6 @@
           </div>
           -->
 
-        </div>
     </main>
     <footer>
       <p>&copy; Chris R. circa 2023, All Rights Reserved</p>

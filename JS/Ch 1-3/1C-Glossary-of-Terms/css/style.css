@@ -75,7 +75,7 @@ main a {
     font-weight: bolder;
 }
 
-#secid, #methid {
+#secid, #methid, #typid, #blank {
     text-align: center;
     font-size: 75px;
     box-shadow: 5px 5px #777777;

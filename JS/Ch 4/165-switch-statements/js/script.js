@@ -1,11 +1,22 @@
-var pass = 50;
-var score = 75;
 var msg;
+var level = 2;
 
-if (score >= pass) {
-    msg = 'Congratulations, you passed!';
-} else {
-    msg = 'Have another go!';
+switch (level) {
+    case 1:
+        msg = 'Good luck on the first test';
+        break;
+
+    case 2:
+        msg = 'Second of three - keep going !';
+        break;
+
+    case 3:
+        msg = 'Final round, almost there!';
+        break;
+
+    default:
+        msg = 'Good luck!';
+        break;
 }
 
 var el = document.getElementById('answer');
