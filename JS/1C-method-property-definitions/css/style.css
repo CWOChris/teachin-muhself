@@ -1,0 +1,155 @@
+body {
+    font-family: "Roboto", Helvetica, sans-serif;
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    text-indent: 50px;
+}
+
+header {
+    background-color: black;
+    padding: 0px 0px 0px 0px;
+    height: 75px;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    z-index: 25;
+    display: inline-block;
+}
+
+header ul {
+    margin-right: 40px;
+    float: right;
+    font-size: 20px;
+    list-style-type: none;
+    margin-top: -45px;
+}
+
+li {
+    display: inline-block;
+    padding: 0px 7.5px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+a:active {
+    color: darkcyan;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.col_1 {
+    font-weight: bold;
+    font-size: 130%;
+}
+
+.col_2 {
+    padding-left: 5px;
+}
+
+
+
+main {
+    background-color: white;
+    padding-top: 75px;
+    z-index: -1;
+    box-shadow: 5px 5px #777777;
+    touch-action: pan-y;
+}
+
+main a {
+    color: rgb(56, 56, 56);
+    font-weight: bolder;
+}
+
+#secid, #methid {
+    text-align: center;
+    font-size: 75px;
+    box-shadow: 5px 5px #777777;
+}
+
+#about_me:hover {
+    background-color: darkcyan;
+    box-shadow: 5px 5px #777777;
+}
+
+#work:hover {
+    background-color: darkcyan;
+    box-shadow: 5px 5px #777777;
+}
+
+#github:hover {
+    background-color: darkcyan;
+    box-shadow: 5px 5px #777777;
+}
+
+#contact:hover {
+    background-color: darkcyan;
+    box-shadow: 5px 5px #777777;
+}
+
+.container {
+    margin: 10px;
+    width: 900px;
+    display: grid;
+    grid-template-columns: 30vw 65vw;
+
+    .col_1 {
+        box-shadow: 5px 5px #777777;
+        padding-top: 10px;
+        margin-top: 10px;
+    }
+
+    .col_2 {
+        margin-left: 10px;
+    }
+}
+
+footer {
+    color: white;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: black;
+        color: white;
+        padding-left: 8px;
+        touch-action: pan-y;
+    }
+    main {
+        background-color: black;
+        color: white;
+        padding-top: 100px;
+    }
+    header, h1, li a {
+        background-color: white;
+        color: black;
+        height: 100px;
+        text-align: justify;
+    }
+    header ul {
+        margin-top: -70px;
+        font-size: 80%;
+    }
+    .col_1 {
+        width: 30vw;
+        box-shadow: 5px 5px #777777;
+    }
+    .col_2 {
+        width: 85%;
+    }
+    .col_2 a {
+        color: white;
+    }
+}
