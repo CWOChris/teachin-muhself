@@ -9,14 +9,18 @@
     <title>Document</title>
 </head>
 <body>
-    <form method="post" action="http://www.example.org/register">
-        <label for="username">Create a Username: </label>
-        <input type="text" id="username" onblur="checkUsername()">
-        <div id="feedback"></div>
-        <label for="password">Create a password: </label>
-        <input type="password" id="password">
-        <input type="submit" value="Sign up!">
-    </form>
+    <div id="page">
+        <h1>List King</h1>
+        <h2>New Account</h2>
+        <form method="post" action="http://www.example.org/register">
+            <label for="username">Create a Username: </label>
+            <input type="text" id="username" onblur="checkUsername()">
+            <div id="feedback"></div>
+            <label for="password">Create a password: </label>
+            <input type="password" id="password">
+            <input type="submit" value="Sign up!">
+        </form>
+    </div>
 </body>
 <script src="./js/script.js"></script>
 </html>
