@@ -6,7 +6,7 @@ elTerms = document.getElementById('terms');
 elTermsHint = document.getElementById('termsHint');
 
 function packageHint() {
-    var pack = this.options[this.selectIndex].value;
+    var pack = this.options[this.selectedIndex].value;
     if (pack == 'monthly') {
         elPackageHint.innerHTML = 'Save $10 if you pay for 1 year!';
     } else {
