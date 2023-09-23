@@ -24,3 +24,4 @@ if (elUsername.addEventListener) {
     });
 }
 
+// code directly from the book website also does not function, don't know what the point of this example was
