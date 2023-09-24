@@ -20,4 +20,5 @@ var randIndex = Math.floor(randNum);
 scores.forEach(function(score, i) {
 console.log("Score: ", score);
 console.log(i);
+console.log(randNum);
 })
