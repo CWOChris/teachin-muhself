@@ -6,3 +6,7 @@ document.addEventListener("keyup", function(e){
     copy = copy + e.key;
     lettersEl.textContent = copy;
 })
+
+
+var expLoady = document.getElementsByClassName('spanner');
+expLoady.textContent = copy;
