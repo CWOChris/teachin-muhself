@@ -1,11 +1,8 @@
-$(function() {
-    $('li:contains("pine')').text('almonds');
-    $('li.hot').html(function() {
-        return '<em>' + $(this).text() + '</em>';
-    });
-    $('li#one').remove();
-});
+// $fucntion() {
+//     $('ul').before('<p class="notice">Just updated</p>');
+//     $('li.hot').prepend('+ ');
+//     var $newListItem = $('<li><em>gluten-free</em> soy sauce</li>');
+//     $('li:last').after($newListItem);
+// }
 
-
-// Line 2, when copied from the book, does not function.  But in the example page it removes fresh
-// figs and replaces pine nuts with almonds.
+// // Doesn't work
