@@ -14,11 +14,13 @@
     <h1></h1>
     <h2></h2>
     <img id="poster">
+    <ul id="ratings"></ul>
     <script>
         var url = "http://www.omdbapi.com/?i=tt3896198&apikey=c96d41c1";
         var headerEl = document.querySelector("h1");
         var subHeaderEl = document.querySelector("h2");
         var posterEl = document.querySelector("#poster");
+        var listContainerEl = document.querySelector("#ratings");
 
         var title = "Scarface";
         var url = "http://www.omdbapi.com/?t=" + title + "&apikey=c96d41c1";
@@ -38,7 +40,7 @@
                 console.log(error);
             });
 
-        //AJAX METHOD
+        //AJAX METHOD ES5
 
         $.ajax({
             url: "http://www.omdbapi.com/?t=" + title + "&apikey=c96d41c1",
@@ -50,7 +52,26 @@
             posterEl.setAttribute("src", data.Poster);
         });
 
-        
+        // VANILLA JS METHOD
+        var xhr = new XMLHttpRequest();
+        xhr.open("GET", "http://www.omdbapi.com/?t=" + title + "&apikey=c96d41c1");
+        xhr.send();
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState === 4 && xhr.status === 200) {
+                var data = JSON.parse(xhr.responseText);
+                console.log(data);
+                headerEl.textContent = data.Title;
+                subHeaderEl.textContent = data.Actors;
+                posterEl.setAttribute("src", data.Poster);
+                console.log(data.ratings[0].Value)
+                for (var i = 0; i < data.ratings.length; i++) {
+                    console.log(data.ratings[i].Value)
+                    var listEl = document.createElement("li");
+                    listEl.testContent = data.ratings[i].source + " (" + data.ratings[i].value + ")";
+                    listContainerEl.appendChild(listEl);
+                }
+            }
+        };
 
 
 
