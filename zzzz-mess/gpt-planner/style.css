@@ -1,0 +1,12 @@
+/* Add your CSS styles here */
+
+/* Example styles for past, present, and future time blocks */
+.past {
+    background-color: #d3d3d3; /* Gray for past time */
+}
+.present {
+    background-color: #ff6961; /* Red for present time */
+}
+.future {
+    background-color: #77dd77; /* Green for future time */
+}
