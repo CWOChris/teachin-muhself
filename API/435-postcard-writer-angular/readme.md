@@ -1,0 +1,1 @@
+Page 435 of APIs and this folder contain code needed to make a postcard.  Text you type into the text area immediately appears to the right on a "postcard".
