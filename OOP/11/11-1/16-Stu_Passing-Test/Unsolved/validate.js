@@ -6,10 +6,6 @@ Validate.prototype.isPassword = (password) => {
     return false;
   }
 
-
-
-
-
   // TODO: Write code the checks if the password contains at least 1 uppercase, lowercase, and number. It should return true if it does, and false if not.
   const pattern = new RegExp(/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$/);
   if (!pattern.test(password)) {
