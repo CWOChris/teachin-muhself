@@ -7,6 +7,11 @@ const port = 3001;
 app.use(express.static('public'));
 
 app.get('/', (req, res) => {
+    const bookTitle = req.query.title;
+    
+
+    const bookFound = bookData.filter((book) => book.id == bookId);
+
     res.send('Hello World!');
 });
 
