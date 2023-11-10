@@ -19,10 +19,6 @@ app.get('/about', (req, res) => {
     res.send('About page');
 });
 
-app.listen(port, () => {
-    console.log(`Server started on port ${port}`);
-});
-
 app.get('/api/books', (req, res) => {
     const books = [
         {id: 1, title: 'Book 1', author: 'John Doe', year: '2013'},
@@ -30,4 +26,12 @@ app.get('/api/books', (req, res) => {
         {id: 3, title: 'Book 3', author: 'John Smith', year: '2018'},
         ];
         res.json(books);
+});
+
+app.get('*', (req, res) => {
+    res.send('404 page');
+});
+
+app.listen(port, () => {
+    console.log(`Server started on port ${port}`);
 });
